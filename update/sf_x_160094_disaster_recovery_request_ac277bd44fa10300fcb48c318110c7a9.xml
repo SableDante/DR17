@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sf_x_160094_disaster_recovery_request">
+    <sf_x_160094_disaster_recovery_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script><![CDATA[(new global.SMTask()).processWOCancellation(current);]]></automatic_script>
+        <automatic_string>current.state.changes()</automatic_string>
+        <business_rule display_value="Cancellation">a4277bd44fa10300fcb48c318110c7aa</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>Disaster Recovery Request State flow</comment>
+        <derived_from display_value="Cancellation">e9feb353df312100dca6a5f59bf263e3</derived_from>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Cancellation</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010038</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>7</start_text>
+        <starting_state display_value="Cancelled">e3173bd44fa10300fcb48c318110c77b</starting_state>
+        <sys_class_name>sf_x_160094_disaster_recovery_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 04:26:15</sys_created_on>
+        <sys_id>ac277bd44fa10300fcb48c318110c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancellation</sys_name>
+        <sys_package display_value="Disaster Recovery" source="x_160094_dr">4b17f7d44fa10300fcb48c318110c738</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Disaster Recovery">4b17f7d44fa10300fcb48c318110c738</sys_scope>
+        <sys_update_name>sf_x_160094_disaster_recovery_request_ac277bd44fa10300fcb48c318110c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 04:26:15</sys_updated_on>
+        <table>x_160094_disaster_recovery_request</table>
+        <translated_ending_state/>
+        <translated_starting_state>Cancelled</translated_starting_state>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_x_160094_disaster_recovery_request>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="personalize_read_dictionary" name="personalize_read_dictionary">1f401b41c3210200d23cdb1122d3aec3</contains>
+        <role display_value="x_160094_dr_admin" name="x_160094_dr_admin">33173bd44fa10300fcb48c318110c7a2</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 04:26:12</sys_created_on>
+        <sys_id>b7173bd44fa10300fcb48c318110c7e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>personalize_read_dictionary.x_160094_dr_admin</sys_name>
+        <sys_package display_value="Disaster Recovery" source="x_160094_dr">4b17f7d44fa10300fcb48c318110c738</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Disaster Recovery">4b17f7d44fa10300fcb48c318110c738</sys_scope>
+        <sys_update_name>sys_user_role_contains_b7173bd44fa10300fcb48c318110c7e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 04:26:12</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

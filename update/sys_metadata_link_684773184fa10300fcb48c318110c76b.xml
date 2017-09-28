@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fd27bbd44fa10300fcb48c318110c7c4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <include_members>false</include_members>
+        <manager/>
+        <name>Disaster Recovery Dispatchers</name>
+        <parent/>
+        <roles/>
+        <source/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 04:26:20</sys_created_on>
+        <sys_id>fd27bbd44fa10300fcb48c318110c7c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 04:26:20</sys_updated_on>
+        <type>6927bbd44fa10300fcb48c318110c7b1</type>
+        <vendors/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 04:26:47</sys_created_on>
+        <sys_id>684773184fa10300fcb48c318110c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disaster Recovery Dispatchers</sys_name>
+        <sys_package display_value="Disaster Recovery" source="x_160094_dr">4b17f7d44fa10300fcb48c318110c738</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Disaster Recovery">4b17f7d44fa10300fcb48c318110c738</sys_scope>
+        <sys_update_name>sys_metadata_link_684773184fa10300fcb48c318110c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 04:26:47</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

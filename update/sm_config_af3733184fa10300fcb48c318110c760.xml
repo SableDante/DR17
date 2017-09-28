@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>false</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_160094_dr_admin" name="x_160094_dr_admin">33173bd44fa10300fcb48c318110c7a2</admin_role>
+        <agent_role display_value="x_160094_dr_agent" name="x_160094_dr_agent">7f173bd44fa10300fcb48c318110c7a5</agent_role>
+        <app_name>disaster_recovery</app_name>
+        <approval>false</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_160094_dr_approver_user" name="x_160094_dr_approver_user">7b173bd44fa10300fcb48c318110c7a8</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>true</auto_dispatch>
+        <basic_role display_value="x_160094_dr_basic" name="x_160094_dr_basic">77173bd44fa10300fcb48c318110c7ab</basic_role>
+        <catalog display_value="Disaster Recovery Catalog">9e37bfd44fa10300fcb48c318110c710</catalog>
+        <created_with_version>Jakarta: 08-11-2017_0919</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="disaster_recovery_dispatch">6927bbd44fa10300fcb48c318110c7b1</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_160094_dr_dispatcher" name="x_160094_dr_dispatcher">f7173bd44fa10300fcb48c318110c7ae</dispatcher_role>
+        <follow_the_sun_priority/>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_160094_dr_initiator" name="x_160094_dr_initiator">b7173bd44fa10300fcb48c318110c7b1</initiator_role>
+        <kbase display_value="Disaster Recovery Knowledge">5e37bfd44fa10300fcb48c318110c72d</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
+        <main_model_category display_value="Disaster Recovery Request Template">51373fd44fa10300fcb48c318110c7dd</main_model_category>
+        <main_model_table>x_160094_disaster_recovery_request_template</main_model_table>
+        <main_state_flow_table>sf_x_160094_disaster_recovery_request</main_state_flow_table>
+        <main_table>x_160094_disaster_recovery_request</main_table>
+        <managed_docs>true</managed_docs>
+        <mandatory_work_notes>true</mandatory_work_notes>
+        <name>Disaster Recovery</name>
+        <part_requirement>false</part_requirement>
+        <pdf_order_summary>false</pdf_order_summary>
+        <property_prefix>x_160094_dr</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_160094_dr_read" name="x_160094_dr_read">b3173bd44fa10300fcb48c318110c7b4</read_role>
+        <request_dispatch_method>auto</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>false</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <signature_capture>false</signature_capture>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 04:26:43</sys_created_on>
+        <sys_id>af3733184fa10300fcb48c318110c760</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Disaster Recovery</sys_name>
+        <sys_package display_value="Disaster Recovery" source="x_160094_dr">4b17f7d44fa10300fcb48c318110c738</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Disaster Recovery">4b17f7d44fa10300fcb48c318110c738</sys_scope>
+        <sys_update_name>sm_config_af3733184fa10300fcb48c318110c760</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 04:58:16</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>auto</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="Disaster Recovery Task Template">59373fd44fa10300fcb48c318110c7dd</task_model_category>
+        <task_model_table>x_160094_disaster_recovery_task_template</task_model_table>
+        <task_state_flow_table>sf_x_160094_disaster_recovery_task</task_state_flow_table>
+        <task_table>x_160094_disaster_recovery_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <track_travel>false</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>false</use_follow_the_sun>
+        <use_location>true</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>false</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="disaster_recovery_vendor">e927bbd44fa10300fcb48c318110c7b1</vendor_group_type>
+        <work_group_type display_value="disaster_recovery">6127bbd44fa10300fcb48c318110c7b1</work_group_type>
+    </sm_config>
+</record_update>

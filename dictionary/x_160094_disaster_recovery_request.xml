@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Disaster Recovery Actions" max_length="40" name="x_160094_disaster_recovery_request" type="collection"/>
+</database>
