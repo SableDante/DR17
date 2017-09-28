@@ -6,28 +6,28 @@
             <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>task_ci.task</related_list>
+            <related_list>x_160094_disaster_recovery_task.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>3637ffd44fa10300fcb48c318110c711</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>1dae542c4fe10300fcb48c318110c7c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_160094_disaster_recovery_task.parent</related_list>
+            <related_list>task_ci.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>3a37ffd44fa10300fcb48c318110c712</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>11ae542c4fe10300fcb48c318110c7c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
@@ -37,67 +37,53 @@
             <related_list>REL:9d3ffe10df221100dca6a5f59bf2637a</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>7a37ffd44fa10300fcb48c318110c711</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>15ae542c4fe10300fcb48c318110c7c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
             <order_by/>
             <position>3</position>
-            <related_list>task_sla.task</related_list>
+            <related_list>dms_document.service_order</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>7e37ffd44fa10300fcb48c318110c712</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>19ae542c4fe10300fcb48c318110c7c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
             <order_by/>
             <position>4</position>
-            <related_list>dms_document.service_order</related_list>
+            <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>be37ffd44fa10300fcb48c318110c711</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>1dae542c4fe10300fcb48c318110c7c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
             <order_by/>
             <position>5</position>
-            <related_list>sysapproval_approver.sysapproval</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>3237ffd44fa10300fcb48c318110c72c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Disaster Recovery Actions - Default view" name="x_160094_disaster_recovery_request" related_list="NULL" sys_domain="global" view="Default view">be37ffd44fa10300fcb48c318110c710</list_id>
-            <order_by/>
-            <position>6</position>
             <related_list>task_activity.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
-            <sys_id>f237ffd44fa10300fcb48c318110c712</sys_id>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
+            <sys_id>11ae542c4fe10300fcb48c318110c7c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Disaster Recovery Actions - Default view</calculated_name>
@@ -108,18 +94,18 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-28 04:26:41</sys_created_on>
+            <sys_created_on>2017-09-28 07:18:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>be37ffd44fa10300fcb48c318110c710</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Disaster Recovery Request - Default view</sys_name>
+            <sys_name>Disaster Recovery Actions - Default view</sys_name>
             <sys_package display_value="Disaster Recovery" source="x_160094_dr">4b17f7d44fa10300fcb48c318110c738</sys_package>
             <sys_policy/>
             <sys_scope display_value="Disaster Recovery">4b17f7d44fa10300fcb48c318110c738</sys_scope>
             <sys_update_name>sys_ui_related_x_160094_disaster_recovery_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-28 04:26:41</sys_updated_on>
+            <sys_updated_on>2017-09-28 07:18:52</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
