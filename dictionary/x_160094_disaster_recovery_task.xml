@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_task" label="Disaster Recovery Task" max_length="40" name="x_160094_disaster_recovery_task" type="collection"/>
+    <element audit="true" extends="sm_task" label="Disaster Recovery Task" max_length="40" name="x_160094_disaster_recovery_task" sizeclass="1" type="collection"/>
 </database>

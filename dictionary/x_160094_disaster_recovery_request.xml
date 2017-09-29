@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_order" label="Disaster Recovery Actions" max_length="40" name="x_160094_disaster_recovery_request" type="collection"/>
+    <element audit="true" extends="sm_order" label="Disaster Recovery Actions" max_length="40" name="x_160094_disaster_recovery_request" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;//&#9;var cUser = current.sys_created_by.getDisplayValue();  // Convert sys_created_by to Full Name&#13;&#10;&#9;var cUser = new GlideRecord('sys_user');&#13;&#10;&#9;&#13;&#10;&#9;cUser.addQuery('user_name', current.sys_created_by.getDisplayValue());&#13;&#10;&#9;cUser.query();&#9;&#13;&#10;&#9;cUser.next();&#13;&#10;&#9;&#9;&#13;&#10;&#9;return cUser.name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Initiated By" max_length="40" name="x_160094_dr_u_initiated_by" read_only="true" type="string" virtual="true"/>
+    </element>
 </database>
